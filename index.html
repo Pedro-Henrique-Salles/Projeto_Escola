@@ -5,7 +5,6 @@
         <link rel="stylesheet" href="style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-light">
@@ -44,7 +43,7 @@
           <div id="atividades">
             <h1>Lugares na EPC</h1>
             
-            <img src="https://scontent.fcgb3-1.fna.fbcdn.net/v/t1.18169-9/15622407_1232337656844560_7655120577204712227_n.png?stp=dst-png_p320x320&_nc_cat=104&ccb=1-7&_nc_sid=2d5d41&_nc_ohc=2_lonzvsVMoAX-pft8h&_nc_ht=scontent.fcgb3-1.fna&oh=00_AT_OmaFwI6oe-1aX38CthdBa0luzUXk47SbCbMsBFD6V_w&oe=637F5F9D"alt="imagen de um departamento infantiu de uma escola" >
+            <img id="imginfantil" src="https://scontent.fcgb3-1.fna.fbcdn.net/v/t1.18169-9/15622407_1232337656844560_7655120577204712227_n.png?stp=dst-png_p320x320&_nc_cat=104&ccb=1-7&_nc_sid=2d5d41&_nc_ohc=2_lonzvsVMoAX-pft8h&_nc_ht=scontent.fcgb3-1.fna&oh=00_AT_OmaFwI6oe-1aX38CthdBa0luzUXk47SbCbMsBFD6V_w&oe=637F5F9D"alt="imagen de um departamento infantiu de uma escola" >
             <h1>Departamento Infantio</h1>
             </div>
             <div id="atividades2">
@@ -56,17 +55,41 @@
                 <h1>Sala de Aula da Escola</h1>
             </div>
             <div id="novidades">
-              <h1>Conquistas</h1>
-              <img src="https://assu.rn.gov.br/wp-content/uploads/2022/04/mirim-1-467x350.jpeg" alt="foto de time de futebol mirin">
+              <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Torneio Futebol</a>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Torneio Xadrez</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Todos os torneios</button>
+              </p>
+              <div class="row">
+                <div class="col">
+                  <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body">
+                      <img src="https://assu.rn.gov.br/wp-content/uploads/2022/04/mirim-1-467x350.jpeg" alt="foto de time de futebol mirin">
               <h1>A Escola ganhou o campeonato de futebol de todas as escolas</h1>
-            </div>
-            <div id="novidades2">
-              <img src="http://media.imperatriz.ma.gov.br/-6rkPBEo-0TgG65nYKF-t4NmhwM=/750x0/novo.imperatriz.ma.gov.br/media/site/content/article/xadrezedmara.jpg" alt="crianças jogando xadrez">
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body">
+                      <img src="http://media.imperatriz.ma.gov.br/-6rkPBEo-0TgG65nYKF-t4NmhwM=/750x0/novo.imperatriz.ma.gov.br/media/site/content/article/xadrezedmara.jpg" alt="crianças jogando xadrez">
               <h1>A Escola ganhou o campeonato de xadrez da região</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div id="novidades3">
-              <img src="https://www.unijui.edu.br/images/stories/maio-2014/campe--s-copa-rs-jpg1401127822_gr.jpg" alt="meninas na quadra de volei">
-              <h1>A Escola também ganhou o campeonato de volei da região</h1>
+            <div id="contato">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3842.7247255817833!2d-56.08219528555832!3d-15.606349622514484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db1cf944fd451%3A0x96f3fb46971097e1!2sEscola%20do%20Farina!5e0!3m2!1spt-BR!2sbr!4v1675199360986!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <hr>
+              <img src="https://educacaoinfantil.aix.com.br/wp-content/uploads/2019/06/256.jpg" alt="imagem de um diretor" class="img-fluid rounded-circle w-25 col-lg-3 col-md-3 col-sm-3 col-xs-4">
+              <h3>nome do diretor :</h3>
+              <h4>Nyemaier</h4>
+              <a href="tel:+556588901233">Entrar em contato</a>
+              <br>
+              <a href="https://www.instagram.com/escola.farina/" target="_blank">instagram</a>
+              <br>
+              <a href="https://web.whatsapp.com/send?phone=556588901233">Whats</a>
             </div>
     </body>
 </html>
